@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 //Personas
 app.use("/personas", PersonasRouter);
 //Usuarios
-app.use("/usuarios", UsuariosRouter)
+app.use("/usuarios", UsuariosRouter);
 
 app.listen(5000);
 

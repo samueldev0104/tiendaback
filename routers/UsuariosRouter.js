@@ -6,7 +6,7 @@ const UsuariosRouter = express.Router();
 //Listar Usuarios
 UsuariosRouter.get("/", (req,res) =>{
     Usuarios.find()
-        .then(datos => res.json({Usuarios: datos}))
+        .then(datos => res.json({usuarios: datos}))
         .catch(error => res.json({mensaje: error}));
 });
 
