@@ -1,4 +1,4 @@
-const mongoose = require('../db/ConectionDB');
+const mongoose = require('../db/conectionDB');
 
 const Productos = mongoose.Schema({
     nombre:{
